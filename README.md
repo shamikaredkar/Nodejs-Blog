@@ -213,7 +213,7 @@ BLOG
       }
     });
     ```
-
+![Preview](https://github.com/shamikaredkar/Nodejs-Blog/blob/main/AdminPreview.png)
 ### User Authentication
 - **Admin Login:**
   - **Steps:**
