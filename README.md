@@ -8,7 +8,7 @@
 <!-- ABOUT THE PROJECT -->
     <br/>
 
-![Preview](https://github.com/shamikaredkar/Nodejs-Blog/blob/main/PreviewBlog.png)
+![Preview](https://github.com/shamikaredkar/Nodejs-Blog/blob/main/PreviewBlog.gif)
 
 ### About The Project
 This project is a personal blog website created to document my Software Engineering journey. It features an admin dashboard for managing posts, user authentication, and a responsive design. The blog allows me to share insights, record my learning path, and provide valuable content related to software development and programming.
@@ -27,9 +27,6 @@ Features:
 * [![Express][Express.js]][Express-url]
 * [![MongoDB][MongoDB]][MongoDB-url]
 * [![EJS][EJS]][EJS-url]
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Project Directory
 ```
