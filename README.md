@@ -81,7 +81,7 @@ BLOG
 
 ### Authentication Middleware
 - The `authMiddleware` function is a crucial part of the application, ensuring that only authenticated users can access certain routes. This middleware checks for a valid JSON Web Token (JWT) in the request cookies and verifies it before allowing access to protected routes.
-- ### How It Works**
+- ### How It Works
 1. **Token Retrieval**: The middleware first attempts to retrieve the token from the cookies.
 2. **Token Validation**: If a token is found, it is verified using the `jsonwebtoken` library and a secret key.
 3. **User Identification**: If the token is valid, the middleware decodes the token to extract the user ID and attaches it to the request object.
