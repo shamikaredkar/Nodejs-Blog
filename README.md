@@ -1,17 +1,15 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
-  <p align="center">
-    NODEJS & MONGODB BLOG
+    NODEJS BLOG
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://nodejs-blog-my67.onrender.com/">View Demo</a>
 </div>
 <!-- ABOUT THE PROJECT -->
-## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Preview](https://example.com)
 
+### About The Project
 This project is a personal blog website created to document my Software Engineering journey. It features an admin dashboard for managing posts, user authentication, and a responsive design. The blog allows me to share insights, record my learning path, and provide valuable content related to software development and programming.
 
 Features:
