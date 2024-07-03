@@ -1,13 +1,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    NODEJS BLOG
+    <h2>NODEJS BLOG - <a href="https://nodejs-blog-my67.onrender.com/"> Demo</a></h2>
     <br />
-    <a href="https://nodejs-blog-my67.onrender.com/">View Demo</a>
+    
 </div>
 <!-- ABOUT THE PROJECT -->
+    <br/>
 
-![Preview](https://example.com)
+![Preview](https://github.com/shamikaredkar/Nodejs-Blog/blob/main/PreviewBlog.png)
 
 ### About The Project
 This project is a personal blog website created to document my Software Engineering journey. It features an admin dashboard for managing posts, user authentication, and a responsive design. The blog allows me to share insights, record my learning path, and provide valuable content related to software development and programming.
