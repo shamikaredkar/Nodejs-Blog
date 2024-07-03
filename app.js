@@ -1,8 +1,7 @@
-// app.js
 require('dotenv').config();
 
 const express = require('express');
-const http = require ('http');
+const http = require('http');
 const expressLayout = require('express-ejs-layouts');
 const methodOverride = require('method-override');
 const cookieParser = require('cookie-parser');
@@ -11,7 +10,7 @@ const connectDB = require('./server/config/db');
 const session = require('express-session');
 const isActiveRoute = require('./server/helpers/routeHelpers'); // Import the helper function
 const app = express();
-const PORT = 3000 || process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 // Connect to database
 connectDB();
@@ -25,7 +24,11 @@ app.use(session({
     resave: false,
     saveUninitialized: true,
     store: MongoStore.create({
-        mongoUrl: process.env.MONGODB_URI
+        mongoUrl: process.env.MONGODB_URI,
+        mongoOptions: {
+            ssl: true,
+            tlsAllowInvalidCertificates: true // Allow invalid certificates
+        }
     })
 }));
 app.use(express.static('public'));
@@ -44,4 +47,3 @@ app.use('/', require('./server/routes/admin'));
 app.listen(PORT, () => {
     console.log(`App is listening on port ${PORT}`);
 });
-
