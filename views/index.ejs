@@ -1,0 +1,37 @@
+<div class="author">
+  <h1 class="author-heading bubble-text">Hi, I am Shamika</h1>
+  <p class="author-body bubble-text">
+    Created this website to document my SWE journey.
+  </p>
+</div>
+
+<div class="two-columns">
+  <section>
+    <h2 class="article-heading"><b>Posts</b></h2>
+    <ul class="article-ul">
+      <% data.forEach(post => { %>
+      <li>
+        <a href="/post/<%= post._id %>">
+          <span><%= post.title %></span>
+          <span class="article-list-date"
+            ><%= post.createdAt.toDateString() %></span
+          >
+        </a>
+      </li>
+      <% }) %>
+    </ul>
+
+    <% if (nextPage !== null) { %>
+    <a href="/?page=<%= nextPage %>" class="pagination"
+      >&lt; View Older Posts</a
+    >
+    <% } %>
+  </section>
+  <img
+    src="img/blog1.gif"
+    alt="Blog image"
+    class="hero-image"
+    width="681"
+    height="681"
+  />
+</div>

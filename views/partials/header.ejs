@@ -1,0 +1,22 @@
+<header class="header">
+  <a href="/" class="header-logo">Blog</a>
+
+  <nav class="header-nav">
+    <ul>
+      <li>
+        <a href="/" class="<%= isActiveRoute('/', currentRoute) %>">Home</a>
+      </li>
+      <li>
+        <a href="/about" class="<%= isActiveRoute('/about', currentRoute) %>"
+          >About</a
+        >
+      </li>
+    </ul>
+  </nav>
+  <div class="header-button">
+    <button class="searchbtn" aria-expanded="false">
+      Search
+      <img id="search-img" src="/img/Search.gif" alt="Search" />
+    </button>
+  </div>
+</header>
