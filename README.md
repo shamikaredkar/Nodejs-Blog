@@ -114,6 +114,7 @@ BLOG
 - **View Recent Posts:** The home page displays the most recent blog posts.
 - **Read a Post:** Click on any post title to read the full content.
 
+![Preview](https://github.com/shamikaredkar/Nodejs-Blog/blob/main/DashboardPreview.png)
 ### Admin Dashboard
 - **Access the Dashboard:** Log in with your admin credentials to access the dashboard.
 - **Create a New Post:**
