@@ -2,6 +2,7 @@
 <br />
 <div align="center">
     <h2>NODEJS BLOG - <a href="https://nodejs-blog-my67.onrender.com/"> Demo</a></h2>
+    <p> <b>Demo</b> link takes some time to load. Thanks for being petient!</p>
     <br />
     
 </div>
